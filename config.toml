@@ -88,7 +88,7 @@ feedback_form_action = "#" # contact form works with https://formspree.io
 [params.logo]
 main = "images/logo.png"
 favicon = "images/favicon.png"
-main_site_link = "https://examplesite.org"
+main_site_link = "https://platypeeps.com"
 logo_icon = "images/logo-icon.png"
 site_logo = "images/site-logo.png"
 docs_logo = "images/docs-logo.png"
