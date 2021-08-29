@@ -1,6 +1,6 @@
 ---
-title: "Mostly Asked Questions"
-description: "this is meta description"
+title: "Most Asked Questions"
+description: "Okatyppes docs site FAQ"
 draft: false
 _build:
   render: never
