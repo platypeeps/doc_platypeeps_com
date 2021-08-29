@@ -29,3 +29,10 @@ HUGO_VERSION = "0.87.0"
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
 
+[[plugins]]
+package = "@algolia/netlify-plugin-crawler"
+  [plugins.inputs]
+  branches = ['main']
+  disabled = false
+  customDomain = "doc.platypeeps.com"
+
