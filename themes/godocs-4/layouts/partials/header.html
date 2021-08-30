@@ -20,12 +20,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             alt="{{ site.Title }}"></a>
       </div>
 
-      {{if not .IsHome }}
-      <form class="form-inline search-wrapper order-3 order-lg-2" name="search-form" action="{{ `search` | relLangURL }}" onsubmit="return validateForm()">
-        <input id="search-by" name="s" type="search" class="form-control" placeholder="{{ i18n `search_placeholder`}}">
-        <button class="border-0 bg-white" type="submit" style="cursor:pointer"><i class="fas fa-search"></i></button>
-      </form>
-      {{ end }}
+      <div id="searchBig" class="col-lg-7 text-center text-lg-left">
+      </div>
 
       <script>
         function validateForm() {

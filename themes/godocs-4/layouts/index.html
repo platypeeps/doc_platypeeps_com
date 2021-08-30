@@ -1,40 +1,5 @@
 {{ define "main" }}
 
-<section class="section pb-0" id="banner">
-  <div class="container">
-    <div class="row justify-content-between align-items-center">
-      <div id="searchBig" class="col-lg-7 text-center text-lg-left">
-        {{ with .Site.Params.banner }}
-        <h1 class="mb-4 display-3">{{ .title | markdownify }}</h1>
-        <p class="mb-4">{{ .subtitle | markdownify }}</p>
-        {{ end }}
-      </div>
-      <div class="col-lg-4 d-lg-block d-none">
-        <img loading="lazy" src="{{ .Site.Params.banner.image | absURL }}" alt="illustration" class="img-fluid">
-      </div>
-
-
-
-      <div class="col-lg-7 text-center text-lg-left">
-        {{ with .Site.Params.banner }}
-        <h1 class="mb-4 display-3">{{ .title | markdownify }}</h1>
-        <p class="mb-4">{{ .subtitle | markdownify }}</p>
-        {{ end }}
-        <form class="search-wrapper home-search" name="search-form" action="{{ `search` | relLangURL }}" onsubmit="return validateForm()">
-          <input id="search-by" name="s" type="search" class="form-control form-control-lg px-4"
-            placeholder="{{ i18n `search_placeholder`}}">
-          <button type="submit" class="btn btn-primary d-none d-sm-block">{{ i18n `search`}}</button>
-          <button class="border-0 px-3 bg-white d-block d-sm-none" type="submit"><i class="fas fa-search"></i></button>
-        </form>
-      </div>
-      <div class="col-lg-4 d-lg-block d-none">
-        <img loading="lazy" src="{{ .Site.Params.banner.image | absURL }}" alt="illustration" class="img-fluid">
-      </div>
-    
-    </div>
-  </div>
-</section>
-
 <!-- topics -->
 <section class="section pb-0">
   <div class="container">
