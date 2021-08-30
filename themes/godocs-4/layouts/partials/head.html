@@ -9,6 +9,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-MDCVFWQ');</script>
 <!-- End Google Tag Manager -->
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+<script type="text/javascript">
+  algoliasearchNetlify({
+    appId: 'G1M5581DQO',
+    apiKey: 'd682a2c2eda27c8d42ffa5de9241d3fe',
+    siteId: 'keen-tesla-483da5',
+    branch: 'main',
+    selector: '#searchBig',
+  });
+</script>
+
 <meta name="author" content="{{ site.Params.author }}">
 <meta name="description" content="{{ with .Params.description }}{{.}}{{else}}{{ with site.Params.description }}{{.}}{{end}}{{end}}">
 
