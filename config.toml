@@ -77,8 +77,8 @@ icon_font = "Font Awesome 5 Free"
 #################### default parameters ################################
 [params]
 # meta description
-author = "Platyppeps"
-description = "Platyppes Documentation"
+author = "Platypeeps"
+description = "Platypeeps Documentation"
 # contact form action
 contact_form_action = "https://platypeeps.com/contact" # contact form works with https://formspree.io
 # feedback form action
