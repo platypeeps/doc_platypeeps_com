@@ -2,8 +2,6 @@
 baseURL = "https://doc.platypeeps.com/"
 title = "Platypeeps Documentation"
 theme = "godocs-4"
-# google analytics
-googleAnalytics = "" # example : UA-123-45
 # disable language
 disableLanguages = ["fr"] # desable language from here
 
