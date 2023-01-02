@@ -8,14 +8,6 @@
           {{ end }}
         </ul>
       </div>
-      <div class="col-lg-4 text-center mb-4 mb-lg-0">
-        <a href="{{ site.BaseURL | relLangURL }}/">
-          {{ if site.Params.logo.main }}
-          <img class="img-fluid" src="{{ site.Params.logo.main | absURL }}" alt="{{ site.Title }}">
-          {{ else }}
-          {{ site.Title }}
-          {{ end }}</a>
-      </div>
       <div class="col-lg-4">
         <ul class="list-inline social-icons text-lg-right text-center">
           {{ range site.Params.social }}
